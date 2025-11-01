@@ -13,16 +13,16 @@ This repository will expand over time as additional, more granular data sources 
 
 ---
 
-## 🗂️ Repository Structure  
+## 📁 Repository Structure  
 
+```text
 baltimore-igs-analysis/
 │
-├── data_raw/ # Original IGS files (2022–2024)
-├── data_clean/ # Processed and merged datasets (future)
-├── notebooks/ # Jupyter notebooks for analysis (in progress)
-├── reports/ # Supporting documents and findings
-└── README.md # You’re here
-
+├── data_raw/               # Original IGS files (2022–2024)
+├── data_clean/             # Processed and merged datasets (future)
+├── notebooks/              # Jupyter notebooks for analysis (in progress)
+├── reports/                # Supporting documents and findings
+└── README.md               # You’re here
 
 ---
 
