@@ -1,7 +1,6 @@
 # Baltimore Inclusive Growth Score (IGS) Analysis  
 
-This ongoing project examines patterns of economic and social inclusion across Baltimore City using Mastercard’s **Inclusive Growth Score (IGS)** data at the census tract level (2022–2024).  
-It serves as a working research environment supporting my broader findings and written analysis on inclusive growth, public investment, and neighborhood transformation in Baltimore.
+This ongoing project examines patterns of economic and social inclusion across Baltimore City using Mastercard’s **Inclusive Growth Score (IGS)** data at the census tract level (2022–2024). It serves as a working research environment supporting my broader findings and written analysis on inclusive growth, public investment, and neighborhood transformation in Baltimore.
 
 ---
 
