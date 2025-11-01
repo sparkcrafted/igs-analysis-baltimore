@@ -36,8 +36,7 @@ baltimore-igs-analysis/
 
 ## 🧠 Background  
 
-The Mastercard Inclusive Growth Score provides a quantitative view of community-level economic vitality, inclusion, and growth.  
-By aligning this data with Baltimore’s policy and investment patterns, this project seeks to uncover connections between **public investment**, **economic inclusion**, and **community outcomes.**
+The Mastercard Inclusive Growth Score provides a quantitative view of community-level economic vitality, inclusion, and growth. By aligning this data with Baltimore’s policy and investment patterns, this project seeks to uncover connections between **public investment**, **economic inclusion**, and **community outcomes.**
 
 ---
 
