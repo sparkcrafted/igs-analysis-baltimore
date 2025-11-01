@@ -1,0 +1,40 @@
+# ======================================
+# Python & Data Science Project .gitignore
+# Sparkcrafted / IGS Analysis
+# ======================================
+
+# --- Python cache and environment files ---
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+env/
+ENV/
+venv/
+.Python
+
+# --- Jupyter Notebook checkpoints ---
+.ipynb_checkpoints/
+
+# --- macOS system files ---
+.DS_Store
+.AppleDouble
+.LSOverride
+Thumbs.db
+
+# --- VS Code settings ---
+.vscode/
+
+# --- Data directories ---
+# Keep raw and cleaned data (versioned intentionally)
+# Ignore temporary or auto-generated outputs
+data_raw/tmp/
+data_clean/tmp/
+outputs/
+tmp/
+*.log
+
+# --- Other general files ---
+*.bak
+*.swp
+*.tmp
