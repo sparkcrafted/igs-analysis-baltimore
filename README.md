@@ -17,13 +17,13 @@ This repository will expand over time as additional, more granular data sources 
 ```text
 igs-analysis-baltimore/
 │
-├── data_raw/          ← raw Mastercard IGS exports (CSV)
-├── data_clean/        ← cleaned, standardized data from 01 notebook
+├── data_raw/          
+├── data_clean/        
 ├── notebooks/
 │   ├── 01_ingest_and_eda.ipynb
 │   └── 02_trend_analysis.ipynb
-├── visuals/           ← auto-generated plots & tables
-├── .venv/             ← your Python environment
+├── visuals/           
+├── .venv/             
 └── Makefile, README.md, requirements.txt
 ```
 ---
