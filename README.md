@@ -15,13 +15,16 @@ This repository will expand over time as additional, more granular data sources 
 ## 📁 Repository Structure  
 
 ```text
-baltimore-igs-analysis/
+igs-analysis-baltimore/
 │
-├── data_raw/               # Original IGS files (2022–2024)
-├── data_clean/             # Processed and merged datasets (future)
-├── notebooks/              # Jupyter notebooks for analysis (in progress)
-├── reports/                # Supporting documents and findings
-└── README.md               # You’re here
+├── data_raw/          ← raw Mastercard IGS exports (CSV)
+├── data_clean/        ← cleaned, standardized data from 01 notebook
+├── notebooks/
+│   ├── 01_ingest_and_eda.ipynb
+│   └── 02_trend_analysis.ipynb
+├── visuals/           ← auto-generated plots & tables
+├── .venv/             ← your Python environment
+└── Makefile, README.md, requirements.txt
 ```
 ---
 
