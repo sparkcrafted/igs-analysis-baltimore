@@ -40,3 +40,5 @@ tmp/
 *.swp
 *.tmp
 visuals/
+.env
+.env

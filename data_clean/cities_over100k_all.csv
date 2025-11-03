@@ -1,0 +1,343 @@
+city,state_name,population,pct_black,state,place,state_fips
+Birmingham city,Alabama,199322,67.1,01,07000,01
+Huntsville city,Alabama,218814,29.7,01,37000,01
+Mobile city,Alabama,185097,52.9,01,50000,01
+Montgomery city,Alabama,198440,63.0,01,51000,01
+Tuscaloosa city,Alabama,107699,42.8,01,77256,01
+Anchorage municipality,Alaska,289069,5.3,02,03000,02
+Chandler city,Arizona,278123,5.2,04,12000,04
+Gilbert town,Arizona,271118,3.3,04,27400,04
+Glendale city,Arizona,250193,7.0,04,27820,04
+Goodyear city,Arizona,102891,6.2,04,28380,04
+Mesa city,Arizona,507478,4.4,04,46000,04
+Peoria city,Arizona,194338,3.4,04,54050,04
+Phoenix city,Arizona,1624832,7.8,04,55000,04
+San Tan Valley CDP,Arizona,105231,4.0,04,64210,04
+Scottsdale city,Arizona,242169,2.0,04,65000,04
+Surprise city,Arizona,149519,4.8,04,71510,04
+Tempe city,Arizona,186419,7.7,04,73000,04
+Tucson city,Arizona,543348,5.0,04,77000,04
+Little Rock city,Arkansas,202739,39.4,05,41000,05
+Anaheim city,California,344553,2.5,06,02000,06
+Antioch city,California,115759,19.7,06,02252,06
+Bakersfield city,California,408366,6.1,06,03526,06
+Berkeley city,California,120223,7.4,06,06000,06
+Burbank city,California,105165,3.4,06,08954,06
+Carlsbad city,California,114500,1.0,06,11194,06
+Chico city,California,102032,2.0,06,13014,06
+Chula Vista city,California,275030,5.3,06,13392,06
+Clovis city,California,122719,2.2,06,14218,06
+Concord city,California,124260,3.8,06,16000,06
+Corona city,California,158839,5.3,06,16350,06
+Costa Mesa city,California,110538,1.6,06,16532,06
+Daly City city,California,102560,3.0,06,17918,06
+Downey city,California,111793,3.7,06,19766,06
+East Los Angeles CDP,California,114617,0.4,06,20802,06
+El Cajon city,California,104909,6.5,06,21712,06
+Elk Grove city,California,177221,10.9,06,22020,06
+El Monte city,California,107066,0.6,06,22230,06
+Escondido city,California,149913,2.3,06,22804,06
+Fairfield city,California,119985,15.3,06,23182,06
+Fontana city,California,211921,8.4,06,24680,06
+Fremont city,California,228518,2.9,06,26000,06
+Fresno city,California,543615,6.7,06,27000,06
+Fullerton city,California,141278,2.1,06,28000,06
+Garden Grove city,California,170603,1.3,06,29000,06
+Glendale city,California,192270,1.7,06,30000,06
+Hayward city,California,159201,9.0,06,33000,06
+Hesperia city,California,100141,4.7,06,33434,06
+Huntington Beach city,California,196010,1.3,06,36000,06
+Inglewood city,California,105575,39.9,06,36546,06
+Irvine city,California,308160,2.0,06,36770,06
+Jurupa Valley city,California,106244,3.9,06,37692,06
+Lancaster city,California,170013,21.4,06,40130,06
+Long Beach city,California,458491,11.9,06,43000,06
+Los Angeles city,California,3857897,8.5,06,44000,06
+Menifee city,California,107020,7.2,06,46842,06
+Modesto city,California,218614,4.7,06,48354,06
+Moreno Valley city,California,210378,17.6,06,49270,06
+Murrieta city,California,111621,5.1,06,50076,06
+Norwalk city,California,100713,4.2,06,52526,06
+Oakland city,California,438072,21.1,06,53000,06
+Oceanside city,California,172542,4.2,06,53322,06
+Ontario city,California,178347,6.4,06,53896,06
+Orange city,California,138723,1.6,06,53980,06
+Oxnard city,California,201014,1.8,06,54652,06
+Palmdale city,California,165487,13.7,06,55156,06
+Pasadena city,California,136462,7.7,06,56000,06
+Pomona city,California,148391,5.3,06,58072,06
+Rancho Cucamonga city,California,174693,8.3,06,59451,06
+Rialto city,California,103866,12.6,06,60466,06
+Richmond city,California,115396,17.4,06,60620,06
+Riverside city,California,316241,6.0,06,62000,06
+Roseville city,California,152438,2.3,06,62938,06
+Sacramento city,California,524802,12.4,06,64000,06
+Salinas city,California,161993,1.4,06,64224,06
+San Bernardino city,California,221774,11.8,06,65000,06
+San Buenaventura (Ventura) city,California,109900,1.6,06,65042,06
+San Diego city,California,1385061,5.7,06,66000,06
+San Francisco city,California,836321,5.1,06,67000,06
+San Jose city,California,990054,2.9,06,68000,06
+San Mateo city,California,103555,1.5,06,68252,06
+Santa Ana city,California,311639,0.8,06,69000,06
+Santa Clara city,California,129239,2.1,06,69084,06
+Santa Clarita city,California,229021,4.4,06,69088,06
+Santa Maria city,California,109880,1.0,06,69196,06
+Santa Rosa city,California,177216,1.9,06,70098,06
+Simi Valley city,California,125769,1.4,06,72016,06
+Stockton city,California,320470,11.6,06,75000,06
+Sunnyvale city,California,153455,1.5,06,77000,06
+Temecula city,California,110404,4.3,06,78120,06
+Thousand Oaks city,California,125676,2.0,06,78582,06
+Torrance city,California,143499,3.5,06,80000,06
+Vacaville city,California,102085,8.7,06,81554,06
+Vallejo city,California,124637,17.4,06,81666,06
+Victorville city,California,135983,17.1,06,82590,06
+Visalia city,California,142649,2.5,06,82954,06
+West Covina city,California,107436,4.1,06,84200,06
+Arvada city,Colorado,122835,1.0,08,03455,08
+Aurora city,Colorado,390201,15.8,08,04000,08
+Boulder city,Colorado,106274,1.1,08,07850,08
+Centennial city,Colorado,107386,2.6,08,12815,08
+Colorado Springs city,Colorado,483099,5.8,08,16000,08
+Denver city,Colorado,713734,8.8,08,20000,08
+Fort Collins city,Colorado,169705,1.4,08,27425,08
+Greeley city,Colorado,109421,2.6,08,32155,08
+Highlands Ranch CDP,Colorado,101437,1.0,08,36410,08
+Lakewood city,Colorado,156309,1.4,08,43000,08
+Pueblo city,Colorado,111514,2.7,08,62000,08
+Thornton city,Colorado,142878,2.2,08,77290,08
+Westminster city,Colorado,115546,1.2,08,83835,08
+Bridgeport city,Connecticut,148012,22.4,09,08000,09
+Hartford city,Connecticut,119970,36.1,09,37000,09
+New Haven city,Connecticut,132893,30.6,09,52000,09
+Stamford city,Connecticut,135806,19.9,09,73000,09
+Waterbury city,Connecticut,114356,26.0,09,80000,09
+Brandon CDP,Florida,116365,17.3,12,08150,12
+Cape Coral city,Florida,206387,4.5,12,10275,12
+Clearwater city,Florida,117075,10.2,12,12875,12
+Coral Springs city,Florida,133962,24.4,12,14400,12
+Davie town,Florida,106412,8.5,12,16475,12
+Fort Lauderdale city,Florida,183032,28.8,12,24000,12
+Gainesville city,Florida,143611,21.6,12,25175,12
+Hialeah city,Florida,221901,1.3,12,30000,12
+Hollywood city,Florida,152935,16.8,12,32000,12
+Jacksonville city,Florida,961739,30.1,12,35000,12
+Lakeland city,Florida,117030,18.3,12,38250,12
+Lehigh Acres CDP,Florida,127391,18.9,12,39925,12
+Miami city,Florida,446663,13.7,12,45000,12
+Miami Gardens city,Florida,111264,63.4,12,45060,12
+Miramar city,Florida,135986,44.6,12,45975,12
+Orlando city,Florida,311732,22.9,12,53000,12
+Palm Bay city,Florida,125273,19.3,12,54000,12
+Pembroke Pines city,Florida,170557,21.2,12,55775,12
+Pompano Beach city,Florida,112212,28.3,12,58050,12
+Port St. Lucie city,Florida,220453,19.2,12,58715,12
+Riverview CDP,Florida,107776,22.0,12,60950,12
+St. Petersburg city,Florida,260646,19.4,12,63000,12
+Spring Hill CDP,Florida,118814,5.1,12,68350,12
+Tallahassee city,Florida,199696,35.7,12,70600,12
+Tampa city,Florida,393389,21.3,12,71000,12
+West Palm Beach city,Florida,119508,31.5,12,76600,12
+Athens-Clarke County unified government (balance),Georgia,126987,26.2,13,03440,13
+Atlanta city,Georgia,499287,46.9,13,04000,13
+Augusta-Richmond County consolidated government (balance),Georgia,201504,56.5,13,04204,13
+Columbus city,Georgia,204383,46.7,13,19000,13
+Macon-Bibb County,Georgia,156543,54.5,13,49008,13
+Sandy Springs city,Georgia,107198,20.0,13,68516,13
+Savannah city,Georgia,147546,52.2,13,69000,13
+South Fulton city,Georgia,109157,91.4,13,72122,13
+Urban Honolulu CDP,Hawaii,346323,1.8,15,71550,15
+Boise City city,Idaho,235701,1.4,16,08830,16
+Meridian city,Idaho,124865,1.6,16,52120,16
+Nampa city,Idaho,106289,1.2,16,56260,16
+Aurora city,Illinois,179867,10.9,17,03012,17
+Chicago city,Illinois,2707648,28.4,17,14000,17
+Elgin city,Illinois,114106,5.2,17,23074,17
+Joliet city,Illinois,149785,17.0,17,38570,17
+Naperville city,Illinois,149424,4.4,17,51622,17
+Peoria city,Illinois,112126,25.9,17,59000,17
+Rockford city,Illinois,147649,21.8,17,65000,17
+Springfield city,Illinois,113714,19.8,17,72000,17
+Carmel city,Indiana,100501,3.7,18,10342,18
+Evansville city,Indiana,116441,13.5,18,22000,18
+Fishers city,Indiana,100918,4.9,18,23278,18
+Fort Wayne city,Indiana,266235,14.6,18,25000,18
+Indianapolis city (balance),Indiana,882043,28.1,18,36003,18
+South Bend city,Indiana,102866,24.4,18,71000,18
+Cedar Rapids city,Iowa,136859,8.5,19,12000,19
+Davenport city,Iowa,101083,11.2,19,19000,19
+Des Moines city,Iowa,212464,12.0,19,21000,19
+Kansas City city,Kansas,154776,20.4,20,36000,20
+Olathe city,Kansas,143720,4.8,20,52575,20
+Overland Park city,Kansas,197199,5.4,20,53775,20
+Topeka city,Kansas,126103,9.7,20,71000,20
+Wichita city,Kansas,396488,9.7,20,79000,20
+Lexington-Fayette urban county,Kentucky,321122,14.4,21,46027,21
+Louisville/Jefferson County metro government (balance),Kentucky,627210,23.7,21,48006,21
+Baton Rouge city,Louisiana,223699,51.0,22,05000,22
+Lafayette city,Louisiana,121537,28.6,22,40735,22
+Metairie CDP,Louisiana,138995,10.2,22,50115,22
+New Orleans city,Louisiana,376035,55.2,22,55000,22
+Shreveport city,Louisiana,183483,56.1,22,70000,22
+Baltimore city,Maryland,577193,60.0,24,04000,24
+Columbia CDP,Maryland,105871,29.0,24,19125,24
+Boston city,Massachusetts,663972,21.5,25,07000,25
+Brockton city,Massachusetts,105080,38.3,25,09000,25
+Cambridge city,Massachusetts,117794,10.5,25,11000,25
+Lowell city,Massachusetts,114799,10.8,25,37000,25
+Lynn city,Massachusetts,100905,12.1,25,37490,25
+New Bedford city,Massachusetts,100731,6.0,25,45000,25
+Quincy city,Massachusetts,101361,6.4,25,55745,25
+Springfield city,Massachusetts,154751,20.0,25,67000,25
+Worcester city,Massachusetts,205501,12.1,25,82000,25
+Ann Arbor city,Michigan,121179,7.2,26,03000,26
+Dearborn city,Michigan,107846,3.3,26,21000,26
+Detroit city,Michigan,636644,76.8,26,22000,26
+Grand Rapids city,Michigan,197768,17.9,26,34000,26
+Lansing city,Michigan,112546,23.4,26,46000,26
+Sterling Heights city,Michigan,133473,6.6,26,76460,26
+Warren city,Michigan,138128,20.9,26,84000,26
+Minneapolis city,Minnesota,426845,18.3,27,43000,27
+Rochester city,Minnesota,121638,9.4,27,54880,27
+St. Paul city,Minnesota,307762,16.2,27,58000,27
+Jackson city,Mississippi,149827,81.8,28,36000,28
+Columbia city,Missouri,127200,12.1,29,15670,29
+Independence city,Missouri,121944,10.8,29,35000,29
+Kansas City city,Missouri,508233,25.8,29,38000,29
+Lee's Summit city,Missouri,102583,10.2,29,41348,29
+St. Louis city,Missouri,293109,43.1,29,65000,29
+Springfield city,Missouri,169432,4.3,29,70000,29
+Billings city,Montana,118321,1.0,30,06550,30
+Lincoln city,Nebraska,291932,4.2,31,28000,31
+Omaha city,Nebraska,488197,11.8,31,37000,31
+Enterprise CDP,Nevada,232043,11.7,32,23770,32
+Henderson city,Nevada,324523,6.2,32,31900,32
+Las Vegas city,Nevada,650873,11.9,32,40000,32
+North Las Vegas city,Nevada,270773,21.9,32,51800,32
+Paradise CDP,Nevada,186178,11.2,32,54600,32
+Reno city,Nevada,268959,3.2,32,60600,32
+Sparks city,Nevada,109106,2.2,32,68400,32
+Spring Valley CDP,Nevada,219913,13.0,32,68585,32
+Sunrise Manor CDP,Nevada,199099,13.9,32,71400,32
+Manchester city,New Hampshire,115415,5.3,33,45140,33
+Elizabeth city,New Jersey,135887,17.1,34,21000,34
+Jersey City city,New Jersey,289691,21.5,34,36000,34
+Newark city,New Jersey,307188,46.7,34,51000,34
+Paterson city,New Jersey,157660,24.1,34,57000,34
+Albuquerque city,New Mexico,562488,3.3,35,02000,35
+Las Cruces city,New Mexico,112612,2.6,35,39380,35
+Rio Rancho city,New Mexico,106533,2.9,35,63460,35
+Albany city,New York,100081,26.6,36,01000,36
+Buffalo city,New York,276397,32.9,36,11000,36
+New York city,New York,8516202,22.7,36,51000,36
+Rochester city,New York,209720,37.5,36,63000,36
+Syracuse city,New York,146211,27.6,36,73000,36
+Yonkers city,New York,209529,17.3,36,84000,36
+Cary town,North Carolina,176686,7.6,37,10740,37
+Charlotte city,North Carolina,886283,34.1,37,12000,37
+Concord city,North Carolina,106518,22.1,37,14100,37
+Durham city,North Carolina,288465,34.4,37,19000,37
+Fayetteville city,North Carolina,209692,42.3,37,22920,37
+Greensboro city,North Carolina,298564,42.2,37,28000,37
+High Point city,North Carolina,115263,32.7,37,31400,37
+Raleigh city,North Carolina,470763,27.5,37,55000,37
+Wilmington city,North Carolina,118578,14.9,37,74440,37
+Winston-Salem city,North Carolina,250887,32.4,37,75000,37
+Fargo city,North Dakota,129064,8.3,38,25700,38
+Akron city,Ohio,189526,29.4,39,01000,39
+Cincinnati city,Ohio,309595,38.7,39,15000,39
+Cleveland city,Ohio,367523,46.8,39,16000,39
+Columbus city,Ohio,906480,29.0,39,18000,39
+Dayton city,Ohio,136741,38.0,39,21000,39
+Toledo city,Ohio,268461,28.7,39,77000,39
+Broken Arrow city,Oklahoma,115919,5.9,40,09050,40
+Norman city,Oklahoma,128714,5.0,40,52500,40
+Oklahoma City city,Oklahoma,688693,13.4,40,55000,40
+Tulsa city,Oklahoma,412322,14.2,40,75000,40
+Bend city,Oregon,101472,0.3,41,05800,41
+Eugene city,Oregon,177520,1.8,41,23850,41
+Gresham city,Oregon,112818,4.4,41,31250,41
+Hillsboro city,Oregon,107050,2.7,41,34100,41
+Portland city,Oregon,642715,5.8,41,59000,41
+Salem city,Oregon,176666,1.6,41,64900,41
+Allentown city,Pennsylvania,125320,13.0,42,02000,42
+Philadelphia city,Pennsylvania,1582432,39.9,42,60000,42
+Pittsburgh city,Pennsylvania,303620,22.5,42,61000,42
+Providence city,Rhode Island,190214,13.3,44,59000,44
+Charleston city,South Carolina,152014,17.4,45,13330,45
+Columbia city,South Carolina,138019,39.5,45,16000,45
+North Charleston city,South Carolina,117460,42.2,45,50875,45
+Sioux Falls city,South Dakota,197642,7.0,46,59020,46
+Chattanooga city,Tennessee,182832,28.6,47,14000,47
+Clarksville city,Tennessee,171897,23.0,47,15160,47
+Knoxville city,Tennessee,193721,15.7,47,40000,47
+Memphis city,Tennessee,629063,62.9,47,48000,47
+Murfreesboro city,Tennessee,157547,17.1,47,51560,47
+Nashville-Davidson metropolitan government (balance),Tennessee,684298,25.5,47,52006,47
+Abilene city,Texas,127130,10.3,48,01000,48
+Allen city,Texas,107684,10.6,48,01924,48
+Amarillo city,Texas,200945,7.4,48,03000,48
+Arlington city,Texas,394769,22.4,48,04000,48
+Austin city,Texas,967862,7.5,48,05000,48
+Beaumont city,Texas,113710,44.9,48,07000,48
+Brownsville city,Texas,188023,0.3,48,10768,48
+Carrollton city,Texas,132741,9.2,48,13024,48
+College Station city,Texas,122280,8.8,48,15976,48
+Corpus Christi city,Texas,317383,4.3,48,17000,48
+Dallas city,Texas,1299553,23.7,48,19000,48
+Denton city,Texas,146987,11.7,48,19972,48
+Edinburg city,Texas,102561,1.9,48,22660,48
+El Paso city,Texas,678147,3.6,48,24000,48
+Fort Worth city,Texas,941311,19.5,48,27000,48
+Frisco city,Texas,210238,8.6,48,27684,48
+Garland city,Texas,245298,15.3,48,29000,48
+Grand Prairie city,Texas,198564,24.6,48,30464,48
+Houston city,Texas,2300419,22.9,48,35000,48
+Irving city,Texas,255036,12.9,48,37000,48
+Killeen city,Texas,156144,37.8,48,39148,48
+Laredo city,Texas,255949,0.5,48,41464,48
+League City city,Texas,114885,7.4,48,41980,48
+Lewisville city,Texas,128313,13.8,48,42508,48
+Lubbock city,Texas,261078,8.3,48,45000,48
+McAllen city,Texas,143789,0.9,48,45384,48
+McKinney city,Texas,202314,12.3,48,45744,48
+Mesquite city,Texas,148848,24.7,48,47892,48
+Midland city,Texas,133998,8.6,48,48072,48
+Odessa city,Texas,114080,6.8,48,53388,48
+Pasadena city,Texas,149345,3.1,48,56000,48
+Pearland city,Texas,125983,18.1,48,56348,48
+Plano city,Texas,287339,9.0,48,58016,48
+Richardson city,Texas,118269,12.7,48,61796,48
+Round Rock city,Texas,124288,11.2,48,63500,48
+San Antonio city,Texas,1458954,6.9,48,65000,48
+Sugar Land city,Texas,109735,7.7,48,70808,48
+The Woodlands CDP,Texas,116916,4.1,48,72656,48
+Tyler city,Texas,107718,23.4,48,74144,48
+Waco city,Texas,141925,20.4,48,76000,48
+Wichita Falls city,Texas,102558,12.9,48,79000,48
+Provo city,Utah,114303,1.1,49,62470,49
+Salt Lake City city,Utah,203888,2.7,49,67000,49
+West Jordan city,Utah,116277,1.4,49,82950,49
+West Valley City city,Utah,137955,2.6,49,83470,49
+Alexandria city,Virginia,156788,21.1,51,01000,51
+Arlington CDP,Virginia,235463,9.4,51,03000,51
+Chesapeake city,Virginia,251153,29.0,51,16000,51
+Hampton city,Virginia,137334,49.0,51,35000,51
+Newport News city,Virginia,184774,41.0,51,56000,51
+Norfolk city,Virginia,235037,39.8,51,57000,51
+Richmond city,Virginia,227595,42.0,51,67000,51
+Virginia Beach city,Virginia,457066,18.9,51,82000,51
+Bellevue city,Washington,151199,2.2,53,05210,53
+Everett city,Washington,111083,6.5,53,22640,53
+Kent city,Washington,135015,13.4,53,35415,53
+Renton city,Washington,105279,9.0,53,57745,53
+Seattle city,Washington,741440,6.6,53,63000,53
+Spokane city,Washington,229228,2.7,53,67000,53
+Spokane Valley city,Washington,105460,1.4,53,67167,53
+Tacoma city,Washington,220482,10.5,53,70000,53
+Vancouver city,Washington,192696,3.1,53,74060,53
+Green Bay city,Wisconsin,106585,3.8,55,31000,55
+Madison city,Wisconsin,275568,7.1,55,48000,55
+Milwaukee city,Wisconsin,569756,38.6,55,53000,55
+Washington city,District of Columbia,672079,43.3,11,50000,11
