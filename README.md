@@ -1,7 +1,7 @@
-# Inclusive Growth Score (IGS) Analysis — Baltimore & Peer Cities  
+# Inclusive Growth Score (IGS) Analysis — Baltimore & Peer Cities
+Comparative data analysis of inclusive growth across Baltimore and peer majority-Black U.S. cities using Mastercard IGS and Census data (2017–2024).
 
-This ongoing project examines patterns of economic and social inclusion across **Baltimore City** and a set of **peer majority-Black cities** using Mastercard’s **Inclusive Growth Score (IGS)** data (2017–2024) and U.S. Census demographic data (2020–2024).  
-It serves as a working research environment supporting broader findings on inclusive growth, public investment, and neighborhood transformation.
+This ongoing project examines patterns of economic and social inclusion across **Baltimore City** and a set of **peer majority-Black cities** using Mastercard’s **Inclusive Growth Score (IGS)** data (2017–2024) and U.S. Census demographic data (2020–2024). It serves as a working research environment supporting broader findings on inclusive growth, public investment, and neighborhood transformation.
 
 ---
 
@@ -30,33 +30,43 @@ igs-analysis-baltimore/
 ├── .venv/
 ├── .gitignore
 └── Makefile, README.md, requirements.txt
-📊 Current Focus
-Merge IGS tract-level data (2020–2024) for Baltimore
-Compute year-over-year change, median, and IQR trends
-Generate tract-level maps (above/below median, quartiles, YoY)
-Clean and combine state demographic data (AL, GA, MD, MI, MS, TN, FL)
-Compare IGS vs. % Black population for 7 peer cities:
-Baltimore (MD)
-Detroit (MI)
-Memphis (TN)
-Jackson (MS)
-Birmingham (AL)
-New Orleans (LA)
-South Fulton (proxy: Fulton County, GA)
-🧠 Key Insights (to date)
-Baltimore’s median IGS rose from 40 → 42 between 2020–2024, while its IQR widened — indicating more variation in inclusive growth across tracts.
-Cross-city scatterplots show no simple correlation between Black population share and IGS; South Fulton (Fulton County) scored highest on average IGS.
-Mapping output visually identifies Baltimore’s quartile spread — which neighborhoods consistently outperform or underperform median IGS values.
-🧰 Tech Stack
+```
+## 📊 Current Focus
+- Merge IGS tract-level data (2020–2024) for Baltimore
+- Compute year-over-year change, median, and IQR trends
+- Generate tract-level maps (above/below median, quartiles, YoY)
+- Clean and combine state demographic data (AL, GA, MD, MI, MS, TN, FL)
+- Compare IGS vs. % Black population for 7 peer cities:  
+  - Baltimore (MD)  
+  - Detroit (MI)  
+  - Memphis (TN)  
+  - Jackson (MS)  
+  - Birmingham (AL)  
+  - New Orleans (LA)  
+  - Portions of Atlanta (GA)
+
+## 🧠 Key Insights (to date)
+- Baltimore’s median IGS rose from 40 → 42 between 2020–2024, while its IQR widened — indicating more variation in inclusive growth across tracts.
+- Cross-city scatterplots show no simple correlation between Black population share and IGS; South Fulton (Fulton County) scored highest on average IGS.
+- Mapping output visually identifies Baltimore’s quartile spread — which neighborhoods consistently outperform or underperform median IGS values.
+
+## 🧰 Tech Stack
 Python 3.12 • pandas • numpy • matplotlib • GeoPandas • requests • pathlib • VS Code
-📅 Project Status
+
+## 📅 Project Status
 ✅ Initial ingestion and multi-year merging complete
+
 ✅ Trend & mapping notebooks finalized
+
 ✅ State demographics cleaned and merged
+
 🧩 Cross-city analysis (2020–2024) complete
+
 📈 Deeper regression and regional benchmarking — upcoming
+
 🗺️ Urban-rural comparison & spatial joins — planned
-🗣️ Author
+
+## 🗣️ Author
 Warren Jones (sparkcrafted)
 📍 Baltimore, MD
 🌐 sparkproservices.com
