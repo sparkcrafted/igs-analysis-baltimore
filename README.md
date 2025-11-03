@@ -1,14 +1,15 @@
-# Baltimore Inclusive Growth Score (IGS) Analysis  
+# Inclusive Growth Score (IGS) Analysis — Baltimore & Peer Cities  
 
-This ongoing project examines patterns of economic and social inclusion across Baltimore City using Mastercard’s **Inclusive Growth Score (IGS)** data at the census tract level (2022–2024). It serves as a working research environment supporting my broader findings and written analysis on inclusive growth, public investment, and neighborhood transformation in Baltimore.
+This ongoing project examines patterns of economic and social inclusion across **Baltimore City** and a set of **peer majority-Black cities** using Mastercard’s **Inclusive Growth Score (IGS)** data (2017–2024) and U.S. Census demographic data (2020–2024).  
+It serves as a working research environment supporting broader findings on inclusive growth, public investment, and neighborhood transformation.
 
 ---
 
 ## 🧭 Purpose  
 
-The goal is to understand how inclusive growth varies across Baltimore’s neighborhoods — identifying which census tracts are improving, which are lagging, and what systemic factors may explain those trends.  
+The goal is to understand how inclusive growth varies across neighborhoods and cities — identifying which census tracts are improving, which are lagging, and what systemic or demographic factors may explain those differences.  
 
-This repository will expand over time as additional, more granular data sources are added (e.g., demographic, housing, and investment datasets).
+This repository will continue expanding as additional data sources are integrated (e.g., housing, business, and investment data).
 
 ---
 
@@ -17,54 +18,50 @@ This repository will expand over time as additional, more granular data sources 
 ```text
 igs-analysis-baltimore/
 │
-├── data_raw/          
-├── data_clean/        
+├── data_raw/                     # Original IGS and Census CSVs
+├── data_clean/                   # Processed and merged datasets
+├── visuals/                      # Generated maps and charts
 ├── notebooks/
-│   ├── 01_ingest_and_eda.ipynb
-│   └── 02_trend_analysis.ipynb
-├── visuals/           
-├── .venv/             
+│   ├── 01_ingest_and_eda.ipynb             # Data ingestion & initial EDA
+│   ├── 02_trend_analysis.ipynb             # Year-over-year Baltimore trends
+│   ├── 03_mapping.ipynb                    # Tract-level mapping and quartile visuals
+│   ├── 04_clean_county_demographics.ipynb  # Census demographic prep (state/county)
+│   └── 05_city_comparison.ipynb            # Multi-city IGS vs. Black share analysis
+├── .venv/
+├── .gitignore
 └── Makefile, README.md, requirements.txt
-```
----
+📊 Current Focus
+Merge IGS tract-level data (2020–2024) for Baltimore
+Compute year-over-year change, median, and IQR trends
+Generate tract-level maps (above/below median, quartiles, YoY)
+Clean and combine state demographic data (AL, GA, MD, MI, MS, TN, FL)
+Compare IGS vs. % Black population for 7 peer cities:
+Baltimore (MD)
+Detroit (MI)
+Memphis (TN)
+Jackson (MS)
+Birmingham (AL)
+New Orleans (LA)
+South Fulton (proxy: Fulton County, GA)
+🧠 Key Insights (to date)
+Baltimore’s median IGS rose from 40 → 42 between 2020–2024, while its IQR widened — indicating more variation in inclusive growth across tracts.
+Cross-city scatterplots show no simple correlation between Black population share and IGS; South Fulton (Fulton County) scored highest on average IGS.
+Mapping output visually identifies Baltimore’s quartile spread — which neighborhoods consistently outperform or underperform median IGS values.
+🧰 Tech Stack
+Python 3.12 • pandas • numpy • matplotlib • GeoPandas • requests • pathlib • VS Code
+📅 Project Status
+✅ Initial ingestion and multi-year merging complete
+✅ Trend & mapping notebooks finalized
+✅ State demographics cleaned and merged
+🧩 Cross-city analysis (2020–2024) complete
+📈 Deeper regression and regional benchmarking — upcoming
+🗺️ Urban-rural comparison & spatial joins — planned
+🗣️ Author
+Warren Jones (sparkcrafted)
+📍 Baltimore, MD
+🌐 sparkproservices.com
+📫 wjones@sparkproservices.com
 
-## 📊 Current Focus  
+This repository continues to evolve as additional datasets and analyses are added. All results are preliminary and intended for educational and exploratory purposes.
 
-- Upload and version Mastercard IGS data for 2022–2024  
-- Merge census tract–level data across years  
-- Calculate year-over-year changes in IGS metrics  
-- Explore spatial and equity trends in Baltimore’s economic development  
-
----
-
-## 🧠 Background  
-
-The Mastercard Inclusive Growth Score provides a quantitative view of community-level economic vitality, inclusion, and growth. By aligning this data with Baltimore’s policy and investment patterns, this project seeks to uncover connections between **public investment**, **economic inclusion**, and **community outcomes.**
-
----
-
-## 🧰 Tech Stack  
-
-`Python` • `pandas` • `Jupyter` • `Matplotlib` • `GeoPandas` (planned)  
-
----
-
-## 📅 Project Status  
-
-✅ Initial data ingestion and repository setup  
-🧩 Data cleaning and merging — *in progress*  
-📈 Exploratory analysis — *upcoming*  
-🗺️ Geospatial visualization — *planned*  
-
----
-
-## 🗣️ Author  
-
-**Warren Jones (sparkcrafted)**  
-📍 Baltimore, MD  
-🌐 [sparkproservices.com](https://sparkproservices.com)  
-📫 wjones@sparkproservices.com  
-
----
-
-> *This repository will evolve as new datasets and findings are incorporated. All analyses and interpretations are preliminary and for educational and exploratory use.*
+Last updated: November 2025
