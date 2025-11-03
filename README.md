@@ -17,20 +17,49 @@ This repository will continue expanding as additional data sources are integrate
 
 ```text
 igs-analysis-baltimore/
-│
-├── data_raw/                     # Original IGS and Census CSVs
-├── data_clean/                   # Processed and merged datasets
-├── visuals/                      # Generated maps and charts
+├── data_raw/ # Original IGS + Census CSVs
+├── data_clean/ # Processed/derived datasets
+├── visuals/ # Exported charts/maps
 ├── notebooks/
-│   ├── 01_ingest_and_eda.ipynb             # Data ingestion & initial EDA
-│   ├── 02_trend_analysis.ipynb             # Year-over-year Baltimore trends
-│   ├── 03_mapping.ipynb                    # Tract-level mapping and quartile visuals
-│   ├── 04_clean_county_demographics.ipynb  # Census demographic prep (state/county)
-│   └── 05_city_comparison.ipynb            # Multi-city IGS vs. Black share analysis
+│ ├── 01_ingest_and_eda.ipynb # Data ingestion & initial EDA
+│ ├── 02_trend_analysis.ipynb # Year-over-year Baltimore trends
+│ ├── 03_mapping.ipynb # Tract-level mapping & quartiles
+│ ├── 04_clean_county_demographics.ipynb # State/county demographic prep
+│ ├── 05_city_comparison.ipynb # Multi-city IGS vs. % Black
+│ └── 06_city_demographic_filters.ipynb # NEW: ACS city (place) filters & visuals
 ├── .venv/
 ├── .gitignore
-└── Makefile, README.md, requirements.txt
+├── Makefile
+├── requirements.txt
+└── README.md
 ```
+## 🔄 Newest Outputs (2025-11-02)
+
+### `notebooks/06_city_demographic_filters.ipynb`
+A reproducible pipeline that pulls **ACS 5-year (2023)** for every U.S. **place** (city/town), then:
+- Builds the **100K+ city universe** and computes `% Black`  
+  - Total pop: `B01003_001E`  
+  - Black pop (alone): `B02001_003E` *(toggle to `B03002_004E` for Black, non-Hispanic)*
+- Produces filtered layers (saved to `data_clean/`):
+  - `cities_over100k_all.csv`
+  - `cities_over100k_50pct_black.csv`
+  - `cities_over100k_55pct_black.csv`
+  - `cities_over100k_60pct_black.csv`
+- Adds analysis/visuals:
+  - City counts by **population tiers** (100k–249k, 250k–499k, 500k–999k, 1M+)
+  - **Population (log) vs. % Black** scatter (peer cities highlighted)
+  - **Black Representation Index** = `%Black_city / 13.6% (U.S. avg)` + distribution histogram
+  - “Top 15 largest cities” table with `% Black`
+
+**Current counts (this run):**  
+Cities ≥100k: **342** | ≥50%: **15** | ≥55%: **11** | ≥60%: **8**
+
+**Quick reads from the visuals:**
+- Most 100k+ cities fall in the **100k–249k** tier.  
+- **250k–1M** cities, on average, show **higher % Black** than 1M+ mega-cities (which are more racially diverse overall).  
+- The Black Index histogram shows most cities are **below the U.S. average (13.6%)**, with a **long right tail** driven by majority-Black cities (e.g., Jackson, Detroit, Birmingham, etc.).
+
+
 ## 📊 Current Focus
 - Merge IGS tract-level data (2020–2024) for Baltimore
 - Compute year-over-year change, median, and IQR trends
