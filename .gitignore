@@ -42,3 +42,5 @@ tmp/
 visuals/
 .env
 .env
+data_intermediate/
+notebooks/data_intermediate/
