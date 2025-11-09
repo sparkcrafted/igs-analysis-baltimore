@@ -44,3 +44,9 @@ visuals/
 .env
 data_intermediate/
 notebooks/data_intermediate/
+# big raw datasets (stored in S3/local, not in git)
+data_raw/asec/
+data_raw/cbp/
+# intermediates
+data_intermediate/
+notebooks/data_intermediate/
