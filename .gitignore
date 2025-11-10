@@ -50,3 +50,42 @@ data_raw/cbp/
 # intermediates
 data_intermediate/
 notebooks/data_intermediate/
+# local data + intermediates
+data_raw/
+data_clean/
+data_intermediate/
+shapes/
+.notebooks/
+.ipynb_checkpoints/
+*.parquet
+*.geojson
+# venv
+.venv/
+# local data + intermediates
+data_raw/
+data_clean/
+data_intermediate/
+shapes/
+.notebooks/
+.ipynb_checkpoints/
+*.parquet
+*.geojson
+# venv
+.venv/
+# keep raw/clean data out of git (all lives in S3)
+data_raw/
+data_clean/
+data_intermediate/
+shapes/
+*.parquet
+*.geojson
+.venv/
+.ipynb_checkpoints/
+data_raw/
+data_clean/
+data_intermediate/
+shapes/
+*.parquet
+*.geojson
+.venv/
+.ipynb_checkpoints/
