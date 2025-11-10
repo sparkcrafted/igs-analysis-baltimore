@@ -1,4 +1,14 @@
-# Inclusive Growth Score (IGS) Analysis — Baltimore & Peer Cities
+# Inclusive Growth Score (IGS) Analysis — Baltimore
+
+[![Python](https://img.shields.io/badge/Python-3.12-blue?logo=python&logoColor=white)](https://www.python.org/)
+[![Data Engineering](https://img.shields.io/badge/Data%20Engineering-pipeline-orange)](#)
+[![GeoPandas](https://img.shields.io/badge/GeoPandas-geospatial-green)](https://geopandas.org/)
+[![Jupyter](https://img.shields.io/badge/Jupyter-Notebook-orange?logo=jupyter)](https://jupyter.org/)
+[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
+[![Project Type](https://img.shields.io/badge/Type-Academic%20Research-lightgrey)](#)
+[![Last Updated](https://img.shields.io/badge/Updated-Nov%202025-purple)](#)
+
+
 Comparative analysis of inclusive growth across **Baltimore** and peer majority-Black U.S. cities using Mastercard IGS, Census/ACS, and neighborhood-scale community indicators (2017–2025).
 
 This project examines patterns of economic and social inclusion across **census tracts** and **Community Statistical Areas (CSAs)**. It extends from tract-level IGS metrics to CSA-level social indicators (poverty, education, access to services) to reveal how place-based conditions intersect with growth and equity.
