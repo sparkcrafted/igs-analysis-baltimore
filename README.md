@@ -61,3 +61,19 @@ Produces:
 * Baltimore’s median IGS rose 40 → 42 (2020–2024) while dispersion widened — gains are uneven.
 * CSA correlations suggest child poverty and education track with access to services (banks/markets).
 * Spatial clusters of exclusion are persistent in East/Southwest Baltimore; peer cities show similarly uneven patterns.
+
+## 🧰 Tech Stack
+Python 3.12 • pandas • numpy • matplotlib • seaborn • GeoPandas • shapely • requests • pathlib • VS Code
+
+## 📝 Project Status
+✅ IGS ingestion, cleaning, and tract mapping
+✅ Cross-city IGS trends + ACS city filters
+✅ CSA feature engineering for Baltimore
+🧩 CSA–tract linkage & dashboards in progress
+📈 Modeling (regression/cluster) upcoming
+
+## 👤 Author
+Warren Jones (sparkcrafted) — Baltimore, MD, USA
+🌐 https://sparkproservices.com • 📫 wjones@sparkproservices.com
+All results are preliminary and intended for research/educational use. 
+Last updated: Nov 2025.
