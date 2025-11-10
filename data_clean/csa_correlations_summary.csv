@@ -1,0 +1,7 @@
+x,y,n,note,pearson_r,pearson_p,pearson_ci_lo,pearson_ci_hi,spearman_rho,spearman_p
+pct_children_poverty,median_income,55.0,,1.0,0.0,1.0,1.0,1.0,0.0
+pct_hs_or_some_college,median_income,55.0,,1.0,0.0,1.0,1.0,1.0,0.0
+banks_per_1000_residents,median_income,55.0,,1.0,0.0,1.0,1.0,1.0,0.0
+grocery_stores_count,median_income,0.0,skipped (n<4 after NA drop),,,,,,
+farmers_markets_count,median_income,0.0,skipped (n<4 after NA drop),,,,,,
+restaurants_total,median_income,,skipped (missing column),,,,,,
