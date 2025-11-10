@@ -1,91 +1,19 @@
-# ======================================
-# Python & Data Science Project .gitignore
-# Sparkcrafted / IGS Analysis
-# ======================================
-
-# --- Python cache and environment files ---
+# Python
 __pycache__/
-*.py[cod]
-*$py.class
 *.pyc
 .venv/
-env/
-ENV/
-venv/
-.Python
 
-# --- Jupyter Notebook checkpoints ---
+# Jupyter
 .ipynb_checkpoints/
 
-# --- macOS system files ---
-.DS_Store
-.AppleDouble
-.LSOverride
-Thumbs.db
+# Data folders
+data_raw/
+data_intermediate/
+data_clean/*.parquet
+visuals/*.png
 
-# --- VS Code settings ---
+# VS Code
 .vscode/
 
-# --- Data directories ---
-# Keep raw and cleaned data (versioned intentionally)
-# Ignore temporary or auto-generated outputs
-data_raw/tmp/
-data_clean/tmp/
-outputs/
-tmp/
-*.log
-
-# --- Other general files ---
-*.bak
-*.swp
-*.tmp
-visuals/
-.env
-.env
-data_intermediate/
-notebooks/data_intermediate/
-# big raw datasets (stored in S3/local, not in git)
-data_raw/asec/
-data_raw/cbp/
-# intermediates
-data_intermediate/
-notebooks/data_intermediate/
-# local data + intermediates
-data_raw/
-data_clean/
-data_intermediate/
-shapes/
-.notebooks/
-.ipynb_checkpoints/
-*.parquet
-*.geojson
-# venv
-.venv/
-# local data + intermediates
-data_raw/
-data_clean/
-data_intermediate/
-shapes/
-.notebooks/
-.ipynb_checkpoints/
-*.parquet
-*.geojson
-# venv
-.venv/
-# keep raw/clean data out of git (all lives in S3)
-data_raw/
-data_clean/
-data_intermediate/
-shapes/
-*.parquet
-*.geojson
-.venv/
-.ipynb_checkpoints/
-data_raw/
-data_clean/
-data_intermediate/
-shapes/
-*.parquet
-*.geojson
-.venv/
-.ipynb_checkpoints/
+# OS cruft
+.DS_Store
